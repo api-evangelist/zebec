@@ -1,0 +1,198 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/zebec-network (also @zebec-fintech, @zebec-protocol) + https://docs.zebec.io
+notes: >-
+  Zebec ships its developer surface as first-party TypeScript SDKs published to npm across three
+  official org scopes: @zebec-fintech, @zebec-protocol and @zebec-network. Package names, descriptions
+  and install lines verified live against registry.npmjs.org on 2026-07-21. Packages under other
+  users' scopes (@lucoadam, @subasshrestha, forks, *-test) are excluded as non-official.
+packages:
+- language: javascript
+  registry: npm
+  name: "@zebec-fintech/silver-card-sdk"
+  url: https://www.npmjs.com/package/@zebec-fintech/silver-card-sdk
+  install: npm i @zebec-fintech/silver-card-sdk
+  description: SDK for purchasing the Zebec Silver Card (EVM + Bittensor/TAO networks).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-fintech/sui-silver-card-sdk"
+  url: https://www.npmjs.com/package/@zebec-fintech/sui-silver-card-sdk
+  install: npm i @zebec-fintech/sui-silver-card-sdk
+  description: SDK for interacting with the Zebec Silver Card contract on Sui.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-fintech/zic-evm-sdk"
+  url: https://www.npmjs.com/package/@zebec-fintech/zic-evm-sdk
+  install: npm i @zebec-fintech/zic-evm-sdk
+  description: SDK for interacting with Zebec card EVM contracts.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-fintech/svm-dao-sdk"
+  url: https://www.npmjs.com/package/@zebec-fintech/svm-dao-sdk
+  install: npm i @zebec-fintech/svm-dao-sdk
+  description: SDK to interact with the Zebec Solana (SVM) DAO program.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-fintech/stellar-sdk"
+  url: https://www.npmjs.com/package/@zebec-fintech/stellar-sdk
+  install: npm i @zebec-fintech/stellar-sdk
+  description: Library for working with Zebec on the Stellar network.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/stream"
+  url: https://www.npmjs.com/package/@zebec-protocol/stream
+  install: npm i @zebec-protocol/stream
+  description: Zebec Protocol SDK - Stream (real-time streaming payments).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/treasury"
+  url: https://www.npmjs.com/package/@zebec-protocol/treasury
+  install: npm i @zebec-protocol/treasury
+  description: Zebec Protocol SDK - Treasury.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/bulk-transfer"
+  url: https://www.npmjs.com/package/@zebec-protocol/bulk-transfer
+  install: npm i @zebec-protocol/bulk-transfer
+  description: Zebec Protocol Bulk Transfer SDK.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/zebec-near-sdk"
+  url: https://www.npmjs.com/package/@zebec-protocol/zebec-near-sdk
+  install: npm i @zebec-protocol/zebec-near-sdk
+  description: SDK for interacting with the Zebec smart contract on NEAR Protocol.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/zebec-bnb-sdk"
+  url: https://www.npmjs.com/package/@zebec-protocol/zebec-bnb-sdk
+  install: npm i @zebec-protocol/zebec-bnb-sdk
+  description: Zebec Stream Client SDK for BNB Chain contracts.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/plutus-sdk"
+  url: https://www.npmjs.com/package/@zebec-protocol/plutus-sdk
+  install: npm i @zebec-protocol/plutus-sdk
+  description: SDK for interacting with Zebec BNB contracts.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/wormhole-bridge"
+  url: https://www.npmjs.com/package/@zebec-protocol/wormhole-bridge
+  install: npm i @zebec-protocol/wormhole-bridge
+  description: SDK for the Zebec cross-chain Wormhole bridge contracts.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-protocol/all"
+  url: https://www.npmjs.com/package/@zebec-protocol/all
+  install: npm i @zebec-protocol/all
+  description: Aggregate of the TypeScript SDKs for the Zebec Protocol.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/zebec-stream-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/zebec-stream-sdk
+  install: npm i @zebec-network/zebec-stream-sdk
+  description: SDK for interacting with the Zebec Stream program on Solana.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/solana-payroll-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/solana-payroll-sdk
+  install: npm i @zebec-network/solana-payroll-sdk
+  description: SDK for the Zebec Solana payroll streaming program.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/stellar-payroll-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/stellar-payroll-sdk
+  install: npm i @zebec-network/stellar-payroll-sdk
+  description: SDK that interacts with Zebec's Stellar streaming contract.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/zebec-card-v2-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/zebec-card-v2-sdk
+  install: npm i @zebec-network/zebec-card-v2-sdk
+  description: SDK for interacting with the Zebec Card program on Solana.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/evm-card-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/evm-card-sdk
+  install: npm i @zebec-network/evm-card-sdk
+  description: SDK for interacting with Zebec card EVM contracts.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/zebec-vault-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/zebec-vault-sdk
+  install: npm i @zebec-network/zebec-vault-sdk
+  description: SDK for the Zebec vault Solana program.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/zebec-stake-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/zebec-stake-sdk
+  install: npm i @zebec-network/zebec-stake-sdk
+  description: SDK for the Zebec network stake Solana program.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/proxy-stream-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/proxy-stream-sdk
+  install: npm i @zebec-network/proxy-stream-sdk
+  description: TypeScript SDK for the Zebec Proxy Stream program on Solana.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/admin-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/admin-sdk
+  install: npm i @zebec-network/admin-sdk
+  description: SDK for admin operations across Zebec smart contracts (multichain).
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/core-utils"
+  url: https://www.npmjs.com/package/@zebec-network/core-utils
+  install: npm i @zebec-network/core-utils
+  description: Core TypeScript utilities used across the Zebec Network SDKs and services.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/solana-common"
+  url: https://www.npmjs.com/package/@zebec-network/solana-common
+  install: npm i @zebec-network/solana-common
+  description: Shared TypeScript utilities used across Zebec's Solana SDKs.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/program-registry"
+  url: https://www.npmjs.com/package/@zebec-network/program-registry
+  install: npm i @zebec-network/program-registry
+  description: Zebec protocol program IDLs, types and deployment metadata.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/exchange-card-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/exchange-card-sdk
+  install: npm i @zebec-network/exchange-card-sdk
+  description: SDK for purchasing the Zebec card via exchange flow.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@zebec-network/partners-card-sdk"
+  url: https://www.npmjs.com/package/@zebec-network/partners-card-sdk
+  install: npm i @zebec-network/partners-card-sdk
+  description: SDK for partner-issued Zebec card purchase flows.
+  official: true

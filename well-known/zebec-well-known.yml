@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Zebec hosts 2026-07-21
+notes: >-
+  Probed the /.well-known/ discovery surface on the Zebec website, docs and supply-API hosts.
+  Zebec is an SDK/on-chain provider with no OAuth/OIDC authorization server or REST catalog, so no
+  standard well-known documents are published. Absence is a valid recorded result. Note: docs.zebec.io
+  DOES publish a top-level /llms.txt (captured verbatim in llms/zebec-llms.txt) though not under
+  /.well-known/.
+hosts:
+- host: https://docs.zebec.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://zebec.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.zebec.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

@@ -1,23 +1,109 @@
 aid: zebec
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zebec.png
 name: Zebec
-description: Zebec is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Zebec is a blockchain-based financial infrastructure network that has been building decentralized
+  payments rails since 2021, best known for real-time streaming payments and payroll. Zebec lets money
+  move continuously by the second rather than in discrete transactions, powering stablecoin payroll,
+  crypto debit cards (Silver, Carbon and Black cards), cross-chain bridging, multisig treasury "Safe"
+  management, staking, and a Web3 Super App. The developer surface is delivered as first-party
+  TypeScript SDKs published to npm under the @zebec-fintech, @zebec-protocol and @zebec-network scopes,
+  spanning Solana (SVM), EVM chains, BNB, NEAR, Stellar, Sui and a cross-chain Wormhole bridge, plus
+  card-purchase SDKs and shared core utilities. Zebec reports over $500M in annual payroll volume, 250+
+  enterprise clients, 50K+ monthly users and 20+ integrated blockchains with 150+ supported tokens.
 url: https://raw.githubusercontent.com/api-evangelist/zebec/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-stub
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Payments
+- Payroll
+- Blockchain
+- Cryptocurrency
+- Streaming Payments
+- Web3
+- DeFi
+- SDKs
+- Stablecoins
+- Solana
+- Cards
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Zebec Developer SDKs
+  description: >-
+    Zebec's developer platform is delivered as first-party TypeScript SDKs that interact with Zebec's
+    on-chain streaming, payroll, card, staking, vault, DAO and cross-chain bridge programs across
+    Solana, EVM, BNB, NEAR, Stellar and Sui. A public supply API is served from api.zebec.io.
+  humanURL: https://docs.zebec.io
+  baseURL: https://api.zebec.io
+  properties:
+  - type: Documentation
+    url: https://docs.zebec.io
+  - type: GettingStarted
+    url: https://docs.zebec.io/getting-started.md
+  - type: SDKs
+    url: packages/zebec-packages.yml
+  - type: Packages
+    url: packages/zebec-packages.yml
+common:
+- type: DeveloperPortal
+  url: https://docs.zebec.io
+- type: Documentation
+  url: https://docs.zebec.io
+- type: GettingStarted
+  url: https://docs.zebec.io/getting-started.md
+- type: GitHubOrganization
+  url: https://github.com/Zebec-protocol
+- type: Blog
+  url: https://medium.com/zebec-protocol
+- type: StatusPage
+  url: https://status.zebec.io
+- type: Compliance
+  url: https://zebec.io/compliance
+- type: TermsOfService
+  url: https://zebec.io/superapp-terms-conditions
+- type: Support
+  url: https://discord.gg/jfmmF32aY5
+- type: SDKs
+  url: packages/zebec-packages.yml
+- type: Packages
+  url: packages/zebec-packages.yml
+- type: Components
+  url: components/zebec-components.yml
+- type: LLMsTxt
+  url: llms/zebec-llms.txt
+- type: WellKnown
+  url: well-known/zebec-well-known.yml
+- type: Lifecycle
+  url: lifecycle/zebec-lifecycle.yml
+- type: DomainSecurity
+  url: security/zebec-domain-security.yml
+- type: TrustCenter
+  url: security/zebec-trust-center.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.zebec.io + https://www.npmjs.com/org/zebec-network
+notes: >-
+  Zebec has no single versioned REST API; its developer surface is versioned per-SDK via npm semver
+  across the @zebec-fintech, @zebec-protocol and @zebec-network scopes. A public Upptime-powered
+  status page monitors Zebec Protocol website/services. No formal deprecation/sunset policy or SLA
+  page was found published.
+versioning:
+  scheme: npm-semver-per-sdk
+  docs: https://docs.zebec.io
+status_page: https://status.zebec.io
+status_page_engine: upptime
+status_page_repo: https://github.com/Zebec-protocol/zebec-protocol-status
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null

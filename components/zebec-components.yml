@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/@zebec-protocol/ui-components
+notes: >-
+  Zebec publishes a client-side UI component library to npm for building Zebec-styled dApp
+  frontends. Verified live on registry.npmjs.org 2026-07-21. These are embeddable/reusable UI
+  components distinct from the server/on-chain SDKs catalogued in packages/.
+families:
+- name: Zebec UI Components
+  description: React/TypeScript component library for Zebec dApp interfaces.
+  packages:
+  - name: "@zebec-protocol/ui-components"
+    registry: npm
+    url: https://www.npmjs.com/package/@zebec-protocol/ui-components
+    version: 1.0.3
+    install: npm i @zebec-protocol/ui-components
+    official: true
+  - name: zebec-ui-components
+    registry: npm
+    url: https://www.npmjs.com/package/zebec-ui-components
+    version: 2.3.1
+    install: npm i zebec-ui-components
+    official: true
+- name: Zebec Icons
+  description: SVG icon components for Zebec interfaces.
+  packages:
+  - name: zebec-icons
+    registry: npm
+    url: https://www.npmjs.com/package/zebec-icons
+    install: npm i zebec-icons
+    official: true

@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://zebec.io/compliance
+probe: false
+url: https://app.vanta.com/zebec.com/trust/c1b2l9f85vp8yoi8kbji0
+trust_center_provider: Vanta
+certifications:
+- SOC 2 (SOC II report by an independent auditor)
+compliance_program:
+- Continuous compliance monitoring via Vanta
+- Native KYC (Know-Your-Customer), KYB (Know-Your-Business) and AML (Anti-Money Laundering) infrastructure (via Gatenox)
+- AI-powered real-time fraud/breach detection and regulatory screening (ZAI smart payments layer)
+- MiCA whitepaper published for EU markets
+compliance_page: https://zebec.io/compliance
+evidence:
+- source: https://zebec.io/compliance
+  keywords: [soc 2, vanta, kyc, kyb, aml, compliance, trust center]
+- source: https://app.vanta.com/zebec.com/trust/c1b2l9f85vp8yoi8kbji0
+  keywords: [trust center, vanta]
+notes: >-
+  Zebec publishes a Vanta-hosted Trust Center linked from its /compliance page, claiming a SOC 2
+  (SOC II) report from an independent auditor and continuous Vanta monitoring, plus native KYC/KYB/AML
+  screening (Gatenox) and a MiCA whitepaper. Named cert set verified from the public compliance page;
+  the Vanta trust portal (returns 200) gates full report access behind request.

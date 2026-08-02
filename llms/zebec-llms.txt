@@ -1,0 +1,94 @@
+# Zebec Network
+
+## Zebec Network
+
+- [Zebec Network](https://docs.zebec.io/zebec-network.md): Decentralized infrastructure network for seamless flows of real-world value
+- [ZBC to ZBCN Migration Guide](https://docs.zebec.io/zbc-to-zbcn-migration-guide.md)
+- [Zebec Network white Paper](https://docs.zebec.io/zebec-network-white-paper.md)
+- [ZBCN Tokemonics](https://docs.zebec.io/zbcn-tokemonics.md)
+- [Getting Started](https://docs.zebec.io/getting-started.md): Follow the following steps to get started with The Stream.
+- [How to get started?](https://docs.zebec.io/getting-started/how-to-get-started.md): You can follow the following steps to easily get started with Zebec Pay.
+- [Benefits of Using Zebec Protocol](https://docs.zebec.io/getting-started/benefits-of-using-zebec-protocol.md): Using The Zebec Protocol for streaming payment gives you the following benefits.
+- [Deposit](https://docs.zebec.io/getting-started/deposit.md): Deposit some token in your zebec wallet to get started . This will deduct token from your main wallet to Zebec wallet.
+- [Start Streaming](https://docs.zebec.io/getting-started/start-streaming.md): You can start streaming to the receiver for this you should have tokens in your zebec wallet .This will start streaming the token as per selected time.You can even pause , resume , cancel the stream.
+- [Withdraw Funds](https://docs.zebec.io/getting-started/withdraw-funds.md): There are two kinds of withdrawal currently in Zebec.   - Withdrawing balance you deposit into Zebec so that you can fund outgoing transactions - Withdrawing balance you received from other people
+- [Safe](https://docs.zebec.io/safe.md): Learn how you can manage multisig transactions using Zebec.
+- [Create Safe](https://docs.zebec.io/safe/create-safe.md)
+- [Deposit in Safe](https://docs.zebec.io/safe/deposit-in-safe.md): Funds can be deposited by any owner. This money will be deducted from the owner's Zebec wallet or Metamask wallet.
+- [Sending a Transaction](https://docs.zebec.io/safe/sending-a-transaction.md): Initiating a Streaming Transaction from Safe
+- [Zapps](https://docs.zebec.io/safe/zapps.md): Safe funds can also be applied to various Zaaps.
+- [Signing a Transaction](https://docs.zebec.io/safe/signing-a-transaction.md): Approving a transaction
+- [Zebec Solana Sdk](https://docs.zebec.io/zebec-solana/zebec-solana-sdk.md)
+- [Streaming](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming.md): This is the most advanced SDK for implementation. Find here :
+- [Initialize Zebec Stream](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/initialize-zebec-stream.md): To create a Zebec Stream service, we would need to initialize the anchor provider and fee receiver.
+- [Create Fee Vault](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/create-fee-vault.md): Add fee percentage .
+- [Update Fee Vault](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/update-fee-vault.md)
+- [Collect Fees](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/collect-fees.md): The total collected fee can be withdrawn from the account owner. In the case of SPL tokens, simply enter the token mint address.
+- [Deposit](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/deposit.md): Deposit functions creates associated address with program id and creates an address , which we called zebec wallet. Funds are deposited in this vault.
+- [Withdraw Deposited Token](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/withdraw-deposited-token.md): This function withdraw the amount from zebec wallet and deposit to the main signers wallet.
+- [Start Streaming](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/start-streaming.md): Start streaming helps to initiate the stream , for this user should decide start time , end time , amount and receiver before streaming and pass parameters as :
+- [Pause Stream](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/pause-stream.md)
+- [Resume Stream](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/resume-stream.md)
+- [Cancel Stream](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/cancel-stream.md): Cancel stream helps the sender to cancel the stream whenever they want within stream period.
+- [Withdraw Streamed Token](https://docs.zebec.io/zebec-solana/zebec-solana-sdk/streaming/withdraw-streamed-token.md): To withdraw the streamed token this function is useful. In this function only the receiver is signer i.e only the receiver can withdraw the token.
+- [Silver Card Sdk](https://docs.zebec.io/zebec-silver-card/silver-card-sdk.md)
+- [Installation](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/installation.md): Install the Zebec Card SDK via npm
+- [Quick Start](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/quick-start.md): To get started, create an instance of ZebecCardService for EVM compatible networks or ZebecCardTAOService for Bittensor Network. This instance requires a signer, a chain ID (for EVM only), and configu
+- [Fetch Quote](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/fetch-quote.md): The fetchQuote method retrieves a quote for the specified amount in USD. The quote is used to calculate the corresponding token amount required for the card purchase. It expires in about 30 seconds.
+- [Configuration Parameters](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/configuration-parameters.md)
+- [Recipient Fields](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/recipient-fields.md)
+- [Responses](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/responses.md)
+- [Environment Variables](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/environment-variables.md)
+- [Supported Countries](https://docs.zebec.io/zebec-silver-card/silver-card-sdk/supported-countries.md)
+- [Bridge Sdk](https://docs.zebec.io/zebec-bridge/bridge-sdk.md): Development kit for x-chain Zebec Bridge Contracts
+- [Creating clients](https://docs.zebec.io/zebec-bridge/bridge-sdk/creating-clients.md)
+- [Initialize Proxy Account](https://docs.zebec.io/zebec-bridge/bridge-sdk/initialize-proxy-account.md)
+- [Initialize Token Account](https://docs.zebec.io/zebec-bridge/bridge-sdk/initialize-token-account.md): Creating a token account from Solana Proxy Account for each x-chain users.
+- [Deposit](https://docs.zebec.io/zebec-bridge/bridge-sdk/deposit.md)
+- [Token Transfer](https://docs.zebec.io/zebec-bridge/bridge-sdk/deposit/token-transfer.md): Migrate token via Token Portal from evm to solana
+- [Deposit to Zebec](https://docs.zebec.io/zebec-bridge/bridge-sdk/deposit/deposit-to-zebec.md): Deposit from solana account to zebec vaults
+- [Withdraw Deposited](https://docs.zebec.io/zebec-bridge/bridge-sdk/withdraw-deposited.md): withdraw assets deposited by sender
+- [Withdraw From Zebec](https://docs.zebec.io/zebec-bridge/bridge-sdk/withdraw-deposited/withdraw-from-zebec.md): Withdraw from vault to proxy accounts
+- [Token Transfer](https://docs.zebec.io/zebec-bridge/bridge-sdk/withdraw-deposited/token-transfer.md): Transfer assets from proxy account in Solana to EVM.
+- [Init Stream](https://docs.zebec.io/zebec-bridge/bridge-sdk/init-stream.md)
+- [Pause/Resume Stream](https://docs.zebec.io/zebec-bridge/bridge-sdk/pause-resume-stream.md)
+- [Cancel Stream](https://docs.zebec.io/zebec-bridge/bridge-sdk/cancel-stream.md)
+- [Update Stream](https://docs.zebec.io/zebec-bridge/bridge-sdk/update-stream.md)
+- [Zebec Near Sdk](https://docs.zebec.io/zebec-near/zebec-near-sdk.md): Software development kit for implementing Zebec protocol in Near chain.
+- [Normal Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream.md)
+- [Initialize Near Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/initialize-near-stream.md)
+- [Initialize Token Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/initialize-token-stream.md)
+- [Pause/Resume Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/pause-resume-stream.md)
+- [Withdraw Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/withdraw-stream.md)
+- [Update Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/update-stream.md)
+- [Cancel Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/cancel-stream.md)
+- [Claim Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/claim-stream.md)
+- [View methods](https://docs.zebec.io/zebec-near/zebec-near-sdk/normal-stream/view-methods.md)
+- [Multisig Factory](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-factory.md): Creates multisig accounts.
+- [Create Multisig Account](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-factory/create-multisig-account.md)
+- [Multisig Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream.md)
+- [Initialize Near Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/initialize-near-stream.md)
+- [Initialize Token Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/initialize-token-stream.md)
+- [Pause/Resume Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/pause-resume-stream.md)
+- [Withdraw Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/withdraw-stream.md)
+- [Update Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/update-stream.md)
+- [Cancel Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/cancel-stream.md)
+- [Claim Stream](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/claim-stream.md)
+- [View methods](https://docs.zebec.io/zebec-near/zebec-near-sdk/multisig-stream/view-methods.md)
+- [Zebec Evm Sdk](https://docs.zebec.io/zebec-evm/zebec-evm-sdk.md)
+- [Zebec Stream Client](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client.md)
+- [Creating Clients](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/creating-clients.md)
+- [Whitelisting Tokens](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/whitelisting-tokens.md)
+- [Deposit into Zebec Wallet](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/deposit-into-zebec-wallet.md)
+- [Withdraw from Zebec Wallet](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/withdraw-from-zebec-wallet.md)
+- [Initiating a Stream](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/initiating-a-stream.md)
+- [Pause/Resume/Cancel  Stream](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/pause-resume-cancel-stream.md)
+- [Updating a Stream](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/updating-a-stream.md)
+- [Withdraw Streamed Tokens](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/withdraw-streamed-tokens.md)
+- [Getting Stream Details](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/getting-stream-details.md)
+- [Whitelisted Tokens on BSC and Nautilus](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-stream-client/whitelisted-tokens-on-bsc-and-nautilus.md)
+- [Zebec Bulk Client](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-bulk-client.md)
+- [Bulk Instant Transfer](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-bulk-client/bulk-instant-transfer.md)
+- [Zebec Multisig Stream](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-multisig-stream.md)
+- [NFT](https://docs.zebec.io/zebec-evm/zebec-evm-sdk/zebec-multisig-stream/nft.md): You have the capability to oversee and control your BEP-721 and BEP-1155 standard non-fungible tokens (NFTs) through a Zebec safe.
+- [Zapps Compatible](https://docs.zebec.io/zebec-evm/zapps-compatible.md)
