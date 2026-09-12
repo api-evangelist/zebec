@@ -92,6 +92,8 @@ apis:
   - type: Packages
     url: packages/zebec-packages.yml
 common:
+- type: Website
+  url: https://www.zebec.io/
 - type: DeveloperPortal
   url: https://docs.zebec.io
 - type: Documentation
