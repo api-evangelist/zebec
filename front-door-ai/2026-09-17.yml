@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.zebec.io
   final_host: zebec.io
-  ownership: inherited
+  ownership: own
   owner: zebec
   shares_host_with: null
-  inherited_from: zebec.io
+  inherited_from: null
+  alias_of: zebec.io
   verdict: silent
-  score: null
+  score: 0
+  band: 1
+  band_label: silent
   host_score: 0
-  density: null
+  density: 0.0
   words: 247
   tiers:
     agentic: 0
