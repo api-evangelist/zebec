@@ -3,7 +3,10 @@
   "feeds": [
     {
       "source": "https://medium.com/zebec-protocol",
-      "error": "HTTPError"
+      "feed_url": "https://medium.com/feed/zebec-protocol",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     },
     {
       "source": "https://github.com/Zebec-protocol",
@@ -14,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
